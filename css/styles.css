@@ -11,11 +11,22 @@ h1 {
     line-height: 1.5;
     letter-spacing: -.2px;
     color: #ffffff;
-    margin-bottom: 15px;
+    margin: 0px;
+    /* margin:100px 150px 70px 30px; */
+    
 }
 
 h1 strong {
     color: #026fff;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 ol, 
@@ -39,20 +50,46 @@ figure {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio { 
     background: #fafafa;
+    padding: 20px;
 
 }
 
 .project {
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
     background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+
 }
 
 .project-details {
@@ -71,8 +108,10 @@ figure {
     background-color: #1b2127;
     color: #ffffff;
     display: flex;
+    height: 70px;
+    align-items: center;
     justify-content: space-between;
-    height: 90px;
+    
 }
 
 .header a {
@@ -105,4 +144,60 @@ figure {
     margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
+}
+
+.footer {
+    color: #ffffff;
+    background-color:#1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.event-list {
+    display: flex;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-details {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: #ffffff;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+
 }
