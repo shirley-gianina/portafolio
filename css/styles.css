@@ -165,6 +165,9 @@ figure {
     display: flex;
 }
 
+.event-list-title {
+    margin-left: 20px;
+}
 .event {
     margin: 10px;
     width: 480px;
@@ -199,5 +202,71 @@ figure {
     text-decoration: none;
     color: #056fff;
     border-radius: 5px;
+}
 
+.contact {
+    background: #056fff;
+    color: #ffffff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social {
+
+}
+
+.social-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url("../images/twitter.svg");
+    
+}
+
+.social-link.facebook {
+    background-image: url("../images/facebook.svg");
+}
+
+.social-link.github {
+    background-image: url("../images/github.svg");
+}
+
+.social-link.instagram {
+    background-image: url("../images/instagram.svg");
+}
+
+.form-email input {
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px 5px 25px;
+    background-image: url("../images/mail.svg");
+    background-size: 15px 15px;   
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 0;
+    border: 1px solid #ffffff;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0px;
 }
