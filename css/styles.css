@@ -163,6 +163,14 @@ figure {
 
 .event-list {
     display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.event-list .event-group {
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .event-list-title {
